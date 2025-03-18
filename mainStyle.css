@@ -1,0 +1,218 @@
+.syncopate-regular {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+.syncopate-bold {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+html {
+    color: #efefef;
+    background-color: #000000;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("./photos/space1.png");
+    background-size: auto 95vh;
+    background-position: top center;
+    background-repeat: repeat-x;
+}
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: auto;
+}
+a {
+    color: #efefef;
+    text-decoration: none;
+}
+html.loonafied {
+    background-image: url("./photos/loonafiedBG.png");
+    background-position: end;
+    background-size: 100vw 100vh;
+}
+.loonafied.mainPageButtons {
+    color: #00000000;
+}  
+.loonafied.mainPageButtons:hover {
+    /**/
+    color: #efefef;
+}
+h1 { 
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15vh;
+}
+h2, h3 {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 24px;
+}
+b {
+    font-weight: 700;
+}
+.mainPageButtons {
+    background-color: #efefef;
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 10px;
+    width: 10vw;
+    height: 10vw;
+    text-size-adjust: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+#genInfo.loonafied {
+    background-image: url("./photos/Kim_Lip_Solo_Album.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#interest.loonafied {
+    background-image: url("./photos/loonaSG.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#kpop.loonafied {
+    background-image: url("./photos/Heejin_Solo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#resume.loonafied {
+    background-image: url("./photos/virtual_angel.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#project.loonafied {
+    background-image: url("./photos/hihigh.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#genInfo {
+    background-color: #E2159E;
+    font-size: 2.1vw;
+}
+#interest {
+    background-color: #EF99E4;
+    font-size: 1.8vw;
+}
+#kpop {
+    background-color: #AD45C9;
+    font-size: 3.6vw;
+}
+#resume {
+    background-color: #E349CE;
+    font-size: 2.5vw;
+}
+#project {
+    background-color: #7c49e3;
+    font-size: 2.1vw;
+}
+#genInfo:hover {
+    background-color: #E2159E;
+    font-size: 2.1vw;
+    background-image: none;
+}
+#interest:hover {
+    background-color: #EF99E4;
+    font-size: 1.8vw;
+    background-image: none;
+}
+#kpop:hover {
+    background-color: #AD45C9;
+    font-size: 3.6vw;
+    background-image: none;
+}
+#resume:hover {
+    background-color: #E349CE;
+    font-size: 2.5vw;
+    background-image: none;
+}
+#project:hover {
+    background-color: #7c49e3;
+    font-size: 2.1vw;
+    background-image: none;
+}
+#backButton:hover {
+    font-weight: 700;
+    color: #efefef;
+}
+#backButton:active {
+    color: #FFC533;
+}
+#backButton {
+    background-color: #00000000;
+    font-size: 24px;
+}
+#choerry {
+    background-color: #FFC533; 
+    background-image: url("./photos/choerry.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#genInfo:active {
+    background-color: #d08bb9;
+}
+#interest:active {
+    background-color: #FADAF6;
+}
+#kpop:active {
+    background-color: #ba90c5;
+}
+#resume:active {
+    background-color: #edb3e5;
+}
+#project:active {
+    background-color: #A890D7;
+}
+#choerry:active {
+    background-color: #ffde8a; 
+    background-image: url("./photos/choerry_white.png");
+    background-position: center;
+    background-size: cover;
+}
+.fake {
+    background-color: #efefef00;
+}
+.bg {
+    background-color: #D9D9D9A6;
+    color: #272727;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    font-size: 24px;
+}
+.subtitleHeading {
+    color: #1e1e1e;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-size: 10vw;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    list-style-type: disc;
+    margin-top: 0px;
+}
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
