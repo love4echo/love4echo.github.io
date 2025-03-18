@@ -1,0 +1,93 @@
+html {
+    font-family: Roboto, Arial;
+    color: #595959;
+    background-color: #eeeeee;
+}
+h1, h2 {
+    font-family:  "Staatliches", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* <weight>: Use a value from 100 to 900
+   <uniquifier>: Use a unique and descriptive class name */
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.titleButtons, button {
+    font-family:  "Staatliches", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    border-color: #595959;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+ul { 
+    list-style-type: none;
+    margin: default;
+    padding: default;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+li, div, .titleButtons {
+    /*
+    display: inline-block; */
+    background-color: #b7b7b7;
+    padding: 10px 3%;
+    font-size: 150%;
+    border-color: #595959;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    /* you're gonna wanna take the following out later */
+    margin-bottom: 20px;
+}
+/* these are for when there is a background picture */
+#genInfoP:hover {
+    background-color: #ffce6499;
+}
+#tradeSaleP:hover {
+    background-color: #cc64ff99;
+}
+#goP:hover {
+    background-color: #ff8abb99;
+}
+/* these are for when there is no background picture */
+#genInfo:hover {
+    background-color: #e2c585;
+}
+#tradeSale:hover {
+    background-color: #c385e2;
+}
+#collect:hover {
+    background-color: #e29cb9;
+}
+#go:hover {
+    background-color: #9ad2c7;
+}
+#temps:hover {
+    background-color: #94cca1;
+}
+.hidden {
+    display: none;
+}
+button:active {
+    color: #aaa;
+    border-color:#aaa;
+}
+.flexContainer {
+    border: none;
+    background: none;
+}
