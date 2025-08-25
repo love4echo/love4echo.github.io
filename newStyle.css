@@ -1,8 +1,15 @@
+/* THIS IS FOR THE TRADES ACCOUNT INFO */
+
 html {
     font-family: Roboto, Arial;
     color: #595959;
     background-color: #eeeeee;
 }
+
+h1 {
+    font-size: 250%;
+}
+
 h1, h2 {
     font-family:  "Staatliches", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
@@ -23,7 +30,7 @@ h1, h2 {
     font-weight: normal;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      "width" 100;
 }
 .titleButtons, button {
     font-family:  "Staatliches", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -46,7 +53,7 @@ li, div, .titleButtons {
     display: inline-block; */
     background-color: #b7b7b7;
     padding: 10px 3%;
-    font-size: 150%;
+    font-size: 200%;
     border-color: #595959;
     border-radius: 8px;
     border-width: 2px;
@@ -80,14 +87,46 @@ li, div, .titleButtons {
 #temps:hover {
     background-color: #94cca1;
 }
+
+button:hover {
+    transition: 0.35s;
+}
+
 .hidden {
     display: none;
 }
 button:active {
     color: #aaa;
     border-color:#aaa;
+    transition: 0s;
 }
 .flexContainer {
     border: none;
     background: none;
+}
+
+#backButton {
+    padding: 5px;
+    font-size: larger;
+}
+#backButton:hover {
+    background-color: #a4a4a4;
+}
+#backButton:active {
+    background-color: #ffffff;
+}
+
+
+@media (width <= 613px) and (orientation: portrait) {
+  .titleButtons {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.card h2 {
+    font-size: 100%;
+}
+.card p {
+    font-size: 70%;
 }

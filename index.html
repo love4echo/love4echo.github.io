@@ -17,37 +17,49 @@
         html {
             text-align: center;
         }
+        button {
+            padding: 10px 5px;
+        }
     </style>
+
+    <script src="mobile-info.js" type="text/javascript"></script>
 
 </head>
 <body>
     <!--- Title -->
     <h1 style="text-align: center;">i.orbit_the_moon &#10209; Info</h1>
-    <p style="text-align: center;">website under construction &#9825;</p>
-    <!-- buttons to select
-    <ul class="titleButtons">
-        <li id="genInfo">General Info</li>
-        <li id="tradeSale">Trades/Sales</li>
-        <li id="go">Group Orders</li>
-    </ul> -->
+    <!-- <p style="text-align: center;">website under construction &#9825;</p> -->
+    <!-- buttons to select 
+    I want to have this where there is 3 rows 2 col with square
+    rounded buttons the first one  is a picture of jinsoul the 
+    other buttons should be not grey
+    -->
+    
+    <button id="genInfo" class="titleButtons">General Info</button>
+    <button id="collect" class="titleButtons">Who I Collect</button>
+    <button id="tradeSale" class="titleButtons">Trades/Sales</button>
+    <button id="go" class="titleButtons">Group Orders</button> 
+    <a href="https://drive.google.com/drive/folders/1-gdMl2_70XVFImylLPbTY2XnSaTRjmlo?usp=sharing"><button id="temps" class="titleButtons">Templates</button>
 
-    <!--General info-->
-        <div style="background-color: #e2c585;">
+    <!-- General info -->
+        <div style="background-color: #e2c585;" class="hidden card" id="infoInfo">
             <h2>General</h2> 
             <p>
                 - California based 🇺🇸🦅 <br>
                 - 20 yr <br>
                 - ENTP <br>
-                - full time uni student <br>
+                - full time uni student majoring in math :3 <br>
                 - I may be slow (I may also reply immediately, it depends on what I got going on in that given moment) <br>
                 - my ult is loona (artms, loossemble, yves, chuu) <br>
                 - on times when I am visiting my parents, I have a cat who likes to eat my binder TT <br>
-                - some other groups I stan: ONF, NINE.i, ZB1, TWS <br>
+                - some other groups I stan: ONF, NINE.i, ZB1, fromis_9 <br>
                 - I am not responsible for lost or damaged mail <br>
-                - feel free to tell me of any typos on this site lol
+                - I may forget about something so feel free to remind me about something <br>
+                - my ultimate goal is to make this into a working online store <br>
+                - feel free to tell me of any typos on this site lol 
             </p>
         </div>
-        <div style="background-color: #e29cb9;">
+        <div style="background-color: #e29cb9;" class="hidden card" id="collectInfo">
             <h2>Who I Collect</h2>
             <p>
                 it's in order of most to least priority <br>
@@ -58,23 +70,23 @@
                 --the rest I don't actively collect-- <br>
                 5. Yves, Chuu ✧ random <br>
                 6. jiwon (fromis_9) ✧ album pcs <br>
-                7. gyuvin (zb1) ✧ all album pcs some others <br>
-                8. hanjin (tws) ✧ all album pcs <br>
+                7. gyuvin (zb1) ✧ album pcs <br>
+                8. hanjin (tws) ✧ album pcs (maybe) <br>
                 9. yeonhee ✧ album pcs <br>
-                10. misc other groups I stan/have stanned previously (twice, onf, zb1 hao)
+                10. misc other groups I collect/have collected previously (twice, onf, zb1 hao)
             </p>
     </div>
-    <div style="background-color: #c385e2">
+    <div style="background-color: #c385e2" class="hidden tradeInfo card" id="tradesText">
         <h2>Trades</h2>
         <p>
             - PLEASE DO NOT TAPE THE SLEEVE (top loader is okay) <br>
             - packaged in penny sleeve, top loader, makeshift card (will expect you to do the same) <br>
             - if you have less than 15 proofs I will ask you to send first (this means you send first, and I send once I receive yours) <br>
-            - international is stamped shipping only
+            - international is stamped shipping only <br>
             - if you do tape the sleeve, you will be posted
         </p>
     </div>
-    <div style="background-color: #9ad2c7;">
+    <div style="background-color: #9ad2c7;" class="hidden tradeInfo card" id="saleText">
         <h2>Sales</h2>
         <p>
             - packaged same as trades <br>
@@ -84,13 +96,13 @@
             - I am open to negotiation on prices but usually I list it as low as possible/under what I paid, so don't expect much
         </p>
     </div>
-    <div style="background-color: #94cca1;">
+    <div style="background-color: #9ad2c7;" class="hidden card" id="goInfo">
         <h2>Group Orders</h2>
         <p>
             - I tend to just close the set and cover it myself so most of the time if I post it at least the 1st set is guaranteed <br>
             - my GOs are open to WW, but prefer USA and non-USA is pob only, shipping will be more <br>
             - If you are looking to by the physical album (USA ONLY), just lmk or I'm gonna assume pob only <br>
-            - I may use my friend's kaddress <br>
+            - I may use my friend's kaddress (assume I do, unless stated in post or one-payment GOs) <br>
             - will be either one or two payments (one if ems+dms+initial, two = initial, ems+dms) <br>
             - forgive me if I may be a bit slow at giving updates <br>
             - not super strict on payments, but I will not send you your items until they are fully paid for <br>
@@ -98,7 +110,10 @@
             when I send out the totals before I drop your claims and resell them
         </p>
     </div>
-    <p>If you read all of this send a moon emoji!</p>
-    <p>by sending a moon emoji it's kinda like accepting terms of service lol</p>
+    <button class="hidden" id="backButton">Back</button>
+    <div id="readConfirm" class="hidden">
+        <p>If you read all of this send a moon emoji!</p>
+        <p>by sending a moon emoji it's kinda like accepting terms of service lol</p>
+    </div>
 </body>
 </html>
