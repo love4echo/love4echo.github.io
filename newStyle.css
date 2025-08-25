@@ -130,3 +130,7 @@ button:active {
 .card p {
     font-size: 70%;
 }
+
+a {
+    color: #000000;
+}
