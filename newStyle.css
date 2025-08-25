@@ -142,3 +142,9 @@ button:active {
 a {
     color: #000000;
 }
+
+#readConfirm {
+    background: none;
+    border: none;
+    font-size: medium;
+}

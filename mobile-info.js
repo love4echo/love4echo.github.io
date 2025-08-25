@@ -1,6 +1,9 @@
 // listing my buttons with var names
 //var isNotShown = true; //is something being shown?
 //var showing = "none"; //what is being shown?
+let pagesViewed = 0;
+
+
 const removeButtons = () => {
   const genButton = document.getElementById("genInfo");
   const collectButton = document.getElementById("collect");
@@ -53,6 +56,7 @@ const genClick = () => {
   const tradeButton = document.getElementById("tradeSale");
   const goButton = document.getElementById("go");
   const goText = document.getElementById("goInfo");
+  const readDone = document.getElementById("readConfirm");
 
   isNotShown = genText.classList.contains("hidden");
   genButton.addEventListener("click", (event) => {
@@ -85,6 +89,8 @@ const genClick = () => {
     document.getElementById("tradesText").classList.remove("hidden");
     document.getElementById("saleText").classList.remove("hidden");
     removeButtons();
+    pagesViewed = 1;
+    readDone.classList.remove("hidden");
   })
 
   goButton.addEventListener("click", (event) => {
