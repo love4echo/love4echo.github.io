@@ -101,7 +101,12 @@ const genClick = () => {
 
 const backToHome = () => {
   const backButton = document.getElementById("backButton");
+  const homeButton = document.getElementById("titleButton");
   backButton.addEventListener("click", (event) => {
+    addButtons();
+    hideText();
+  })
+  homeButton.addEventListener("click", (event) => {
     addButtons();
     hideText();
   })
