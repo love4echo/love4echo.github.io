@@ -1,0 +1,6 @@
+{
+    "name": "love4echo",
+    "short_name": "love4echo",
+    "start_url": "./index.html",
+    "display": "standalone"
+}
