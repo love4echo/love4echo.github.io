@@ -35,10 +35,21 @@ const loonaMode = () => {
 
 
 
+// document.addEventListener("DOMContentLoaded", (event) => {  
+//     if (confirm("ARE YOU SURE YOU WANT TO LOAD THIS PAGE?") == false) {
+//         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+//     }
+//     try {
+//         loonaMode();
+//     } catch (e) {
+//         console.error(e);
+//     }
+// });
+
 document.addEventListener("DOMContentLoaded", (event) => {  
-    if (confirm("ARE YOU SURE YOU WANT TO LOAD THIS PAGE?") == false) {
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-    }
+    // if (confirm("ARE YOU SURE YOU WANT TO LOAD THIS PAGE?") == false) {
+    //     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    // }
     try {
         loonaMode();
     } catch (e) {
