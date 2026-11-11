@@ -94,22 +94,46 @@ b {
     background-position: center;
     background-size: cover;
 }
+#interest.loonafied:hover {
+    background-color: #EF99E4;
+    background-position: center;
+    background-size: cover;
+}
+
+
 #kpop.loonafied {
     background-image: url("./photos/Heejin_Solo.jpg");
     background-position: center;
     background-size: cover;
 }
+#kpop.loonafied:hover {
+    background-color: #AD45C9;
+    background-position: center;
+    background-size: cover;
+}
+
+
 #resume.loonafied {
     background-image: url("./photos/virtual_angel.jpg");
     background-position: center;
     background-size: cover;
 }
+#resume.loonafied:hover {
+    background-color: #E349CE;
+    background-position: center;
+    background-size: cover;
+}
+
 #project.loonafied {
     background-image: url("./photos/hihigh.jpg");
     background-position: center;
     background-size: cover;
 }
-
+#project.loonafied:hover {
+    background-color: #7c49e3;
+    background-position: center;
+    background-size: cover;
+}
 
 #genInfo {
     background-color: #E2159E;
@@ -134,27 +158,27 @@ b {
 
 
 #genInfo:hover {
-    background-color: #E2159E;
+    background-color: #e44eb2;
     font-size: 2.1vw;
     background-image: none;
 }
 #interest:hover {
-    background-color: #EF99E4;
+    background-color: #eba4e2;
     font-size: 1.8vw;
     background-image: none;
 }
 #kpop:hover {
-    background-color: #AD45C9;
+    background-color: #b35dcb;
     font-size: 3.6vw;
     background-image: none;
 }
 #resume:hover {
-    background-color: #E349CE;
+    background-color: #e766d6;
     font-size: 2.5vw;
     background-image: none;
 }
 #project:hover {
-    background-color: #7c49e3;
+    background-color: #9166e7;
     font-size: 2.1vw;
     background-image: none;
 }
