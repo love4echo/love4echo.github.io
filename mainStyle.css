@@ -87,6 +87,7 @@ b {
     background-color: #E2159E;
     background-position: center;
     background-size: cover;
+    transition: 0.2s ease-in-out;
 }
 
 #interest.loonafied {
@@ -98,6 +99,7 @@ b {
     background-color: #EF99E4;
     background-position: center;
     background-size: cover;
+    transition: 0.2s ease-in-out;
 }
 
 
@@ -110,6 +112,7 @@ b {
     background-color: #AD45C9;
     background-position: center;
     background-size: cover;
+    transition: 0.2s ease-in-out;
 }
 
 
@@ -122,6 +125,7 @@ b {
     background-color: #E349CE;
     background-position: center;
     background-size: cover;
+    transition: 0.2s ease-in-out;
 }
 
 #project.loonafied {
@@ -133,6 +137,7 @@ b {
     background-color: #7c49e3;
     background-position: center;
     background-size: cover;
+    transition: 0.2s ease-in-out;
 }
 
 #genInfo {
@@ -161,30 +166,36 @@ b {
     background-color: #e44eb2;
     font-size: 2.1vw;
     background-image: none;
+    transition: 0.2s ease-in-out;
 }
 #interest:hover {
     background-color: #eba4e2;
     font-size: 1.8vw;
     background-image: none;
+    transition: 0.2s ease-in-out;
 }
 #kpop:hover {
     background-color: #b35dcb;
     font-size: 3.6vw;
     background-image: none;
+    transition: 0.2s ease-in-out;
 }
 #resume:hover {
     background-color: #e766d6;
     font-size: 2.5vw;
     background-image: none;
+    transition: 0.2s ease-in-out;
 }
 #project:hover {
     background-color: #9166e7;
     font-size: 2.1vw;
     background-image: none;
+    transition: 0.2s ease-in-out;
 }
 #backButton:hover {
     font-weight: 700;
     color: #efefef;
+    transition: 0.2s ease-in-out;
 }
 
 #backButton:active {
